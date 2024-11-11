@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+//declaration: start with void/int/etc, ends with ;
+
+void printBananas();
+int main() {
+
+	printBananas();
+
+}
+
+//definition: starts with void/int/etc, end with {}
+
+
+void printBananas() {
+	for (int BananaDance=0; BananaDance < 4; BananaDance++)
+		cout << "banana" << " ";
+}
