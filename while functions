@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+//declaration: start with void/int/etc, ends with ;
+
+void countsnails();
+
+int main() {
+	 //call: no void/etc in front, ends with ;
+	countsnails();
+	
+
+}
+
+//definition: starts with void/int/etc, end with {}
+
+void countsnails() {
+	int countsnails = 1;
+	while (countsnails < 4) {
+		cout << "Snails:" << countsnails << " ";
+		countsnails += 1;
+
+
+	}
+}
