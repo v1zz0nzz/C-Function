@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+//declaration: start with void/int/etc, ends with ;
+void checkCarrots();
+
+int main() {
+	checkCarrots(); //call: no void/etc in front, ends with ;
+
+
+}
+
+//definition: starts with void/int/etc, end with {}
+void checkCarrots() {
+	int checkCarrots;
+	cout << "How many carrots do you have?" << endl;
+	cin >> checkCarrots;
+	if (checkCarrots > 3)
+		cout << "That's too many carrots >:(" << endl;
+	else
+		cout << "That's not enough carrots" << endl;
+}
